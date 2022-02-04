@@ -1,0 +1,25 @@
+POST http://localhost:4009/products
+Content-Type: application/json
+
+{
+  "name": "Caderno 200 preto",
+  "price": 11.20
+}
+
+###
+GET http://localhost:4009/products
+
+###
+GET http://localhost:4009/products/IDdf47234567-6543-2345-7654321gd
+
+###
+PUT http://localhost:4009/products/IDwertyuiytr-2345tdh54-456-3456-wehj
+Content-Type: application/json
+
+{
+  "name": "Caderno 96",
+  "price": 10.40
+}
+
+###
+DELETE http://localhost:4009/products/IDdoprodutoremovido-werth-765432-asdfg543
